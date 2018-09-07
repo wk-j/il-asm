@@ -13,7 +13,6 @@ namespace ILAsm {
             var file = args[0];
 
             if (File.Exists(file)) {
-                if (!Directory.Exists(".output")) Directory.CreateDirectory(".output");
                 Utility.Asm(file);
             } else {
                 Console.WriteLine(" > File not exist {0}", file);
