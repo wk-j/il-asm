@@ -3,3 +3,5 @@
 // #r "../tests/HelloWorld/bin/Debug/netstandard2.0/HelloWorld.dll"
 
 using System;
+
+C.Main(new string[0]);

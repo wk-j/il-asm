@@ -5,9 +5,13 @@
         <TargetFramework>netcoreapp2.2</TargetFramework>
         <PackAsTool>true</PackAsTool>
         <PackageId>wk.IlAsm</PackageId>
-        <Version>0.1.0</Version>
+        <Version>0.1.1</Version>
         <ToolCommandName>wk-ilasm</ToolCommandName>
     </PropertyGroup>
+
+    <ItemGroup>
+        <EmbeddedResource Include="Empty.il" />
+    </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="runtime.osx-x64.Microsoft.NETCore.ILAsm" Version="2.0.8" />
